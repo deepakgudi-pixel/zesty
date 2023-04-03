@@ -18,4 +18,22 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     font-family: 'Poppins', sans-serif;
   }
+
+
+  .display {
+    opacity: 1;
+  }
+  
+  .hide {
+    opacity: 0;
+  }
+
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    object-position: center;
+  }
+
 `;
