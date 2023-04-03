@@ -5,4 +5,5 @@ export const ImageContainer =  styled.div`
   margin: 0;
   position: relative;
   width: 50vw;
+  overflow: hidden
 `;
